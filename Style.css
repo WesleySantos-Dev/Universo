@@ -6,11 +6,12 @@
 }
 
 .fundo-opaco{
+    width: 100%;
     padding-top: 30px;
     padding-bottom: 30px;
-    background-color: rgb(255, 0, 0);
     display: flex;
     justify-content: center;
+    background: rgba(49, 47, 47, 0.50);
 
 }
 
@@ -34,6 +35,47 @@
 .inkut{
     color: white;
     font-family: 'Inknut Antiqua', serif;
+    font-weight: 400;
+}
+
+.galaxias-fundo{
+    background-image: url(img/Hero-Img\ \(5\).png);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header-inv2{
+    width: 1240px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.fundo-opaco2{
+   background-color:  rgba(0, 0, 0, 0.90);
+   width: 430px;
+   height: 430px;
+   border-radius: 40px;
+   padding: 20px;
+}
+
+.font_inter{
+    font-family: initial;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.galaxia_azul{
+background-image: url(img/galaxia\ azul.png);
+width: 430px;
+height: 430px;
+padding-right: 30px;
 }
 
 @media (max-width: 800px) {
